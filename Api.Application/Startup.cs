@@ -18,6 +18,8 @@ using Api.Domain.Security;
 using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Api.CrossCutting.Mappings;
+using AutoMapper;
 
 namespace application
 {
@@ -36,7 +38,17 @@ namespace application
 
             ConfigureService.ConfigureDependenciesServices(services);
             ConfigureRepository.ConfigureDependenciesRepository(services);
+            var config = new MapperConfiguration(cfg =>
+             {
+                 cfg.AddProfile(new DtoToModelProfile());
+                 cfg.AddProfile(new EntityToDtoProfile());
+                 cfg.AddProfile(new ModelToEntityProfile());
+             });
+            IMapper mapper = config.CreateMapper();
+            services.AddSingleton(mapper);
+
             services.AddControllers();
+
             var signingConfigurations = new SigningConfigurations();
             services.AddSingleton(signingConfigurations);
             var tokenConfigurations = new TokenConfigurations();
@@ -130,6 +142,17 @@ namespace application
             {
                 endpoints.MapControllers();
             });
+            if (Environment.GetEnvironmentVariable("MIGRATION").ToLower() == "APLICAR".ToLower())
+            {
+                using (var service = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>()
+                                                            .CreateScope())
+                {
+                    using (var context = service.ServiceProvider.GetService<Mycontext>())
+                    {
+                        context.Database.Migrate();
+                    }
+                }
+            }
         }
     }
 }

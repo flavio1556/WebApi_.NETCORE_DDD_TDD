@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Api.Data.Implementations;
 using Api.Domain.Repository;
+using System;
+
 namespace Api.CrossCutting.DependencyInjection
 {
     public class ConfigureRepository
@@ -13,10 +15,14 @@ namespace Api.CrossCutting.DependencyInjection
         {
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddScoped<IUserRepository, UserImplementation>();
-            serviceCollection.AddDbContext<Mycontext>
-             (
-                 options => options.UseSqlServer("Server=(local)\\sqlexpress;DataBase=Curso;Trusted_Connection=true;MultipleActiveResultSets=true")
-             );
+            if (Environment.GetEnvironmentVariable("DATABASE").ToLower() == "SQLSERVER".ToLower())
+            {
+                serviceCollection.AddDbContext<Mycontext>
+               (
+                   options => options.UseSqlServer(Environment.GetEnvironmentVariable("DB_CONNECTION"))
+               );
+            }
+
         }
     }
 }

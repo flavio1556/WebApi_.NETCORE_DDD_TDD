@@ -1,38 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Application\\application.csproj": {}
+    "C:\\curso_api_netcore\\src\\Api.Application\\application.csproj": {}
   },
   "projects": {
-    "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Application\\application.csproj": {
+    "C:\\curso_api_netcore\\src\\Api.Application\\application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Application\\application.csproj",
+        "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.Application\\application.csproj",
         "projectName": "application",
-        "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Application\\application.csproj",
-        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Application\\obj\\",
+        "projectPath": "C:\\curso_api_netcore\\src\\Api.Application\\application.csproj",
+        "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
+        "outputPath": "C:\\curso_api_netcore\\src\\Api.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.CrossCutting\\CrossCutting.csproj": {
-                "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.CrossCutting\\CrossCutting.csproj"
+              "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
               },
-              "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj"
+              "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Service\\Service.csproj"
+              "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -45,6 +49,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -73,39 +78,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.CrossCutting\\CrossCutting.csproj": {
+    "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.CrossCutting\\CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.CrossCutting\\obj\\",
+        "projectPath": "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
+        "outputPath": "C:\\curso_api_netcore\\src\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Data\\Data.csproj"
+              "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj"
+              "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Service\\Service.csproj"
+              "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -118,7 +127,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -139,33 +153,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Data\\Data.csproj": {
+    "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Data\\obj\\",
+        "projectPath": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
+        "outputPath": "C:\\curso_api_netcore\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj"
+              "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -178,6 +196,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
@@ -215,30 +234,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj": {
+    "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\obj\\",
+        "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
+        "outputPath": "C:\\curso_api_netcore\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -250,6 +273,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -271,36 +295,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Service\\Service.csproj": {
+    "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Service\\Service.csproj",
+        "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Service\\obj\\",
+        "projectPath": "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
+        "outputPath": "C:\\curso_api_netcore\\src\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Data\\Data.csproj"
+              "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj"
+              "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -313,6 +341,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -328,7 +363,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

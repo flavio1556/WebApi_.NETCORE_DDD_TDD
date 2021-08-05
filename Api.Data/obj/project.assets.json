@@ -5440,31 +5440,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\flavi\\.nuget\\packages\\": {}
+    "C:\\Users\\fhadiogo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Data\\Data.csproj",
+      "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-      "outputPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Data\\obj\\",
+      "projectPath": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
+      "outputPath": "C:\\curso_api_netcore\\src\\Api.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj": {
-              "projectPath": "C:\\Curso\\WebApi_.NETCORE_DDD_TDD\\Api.Domain\\Domain.csproj"
+            "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
             }
           }
         }
@@ -5477,6 +5481,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers",
@@ -5514,7 +5519,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
