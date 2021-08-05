@@ -7,3 +7,12 @@ C:\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.
 C:\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.pdb
 C:\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Curso\WebApi_.NETCORE_DDD_TDD\Api.Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Curso\WebApi_.NETCORE_DDD_TDD\Api.Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Curso\WebApi_.NETCORE_DDD_TDD\Api.Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Curso\WebApi_.NETCORE_DDD_TDD\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Curso\WebApi_.NETCORE_DDD_TDD\Api.Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Curso\WebApi_.NETCORE_DDD_TDD\Api.Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Curso\WebApi_.NETCORE_DDD_TDD\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Curso\WebApi_.NETCORE_DDD_TDD\Api.Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Curso\WebApi_.NETCORE_DDD_TDD\Api.Domain\obj\Debug\netcoreapp3.1\Domain.pdb
