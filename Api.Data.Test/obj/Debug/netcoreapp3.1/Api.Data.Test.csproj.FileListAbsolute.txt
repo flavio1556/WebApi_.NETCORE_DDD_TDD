@@ -53,7 +53,6 @@ C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.Diagnostic
 C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
 C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
 C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\xunit.assert.dll
 C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\xunit.core.dll
@@ -147,3 +146,18 @@ C:\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csp
 C:\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.dll
 C:\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.pdb
 C:\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.genruntimeconfig.cache
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\application.deps.json
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\application.runtimeconfig.json
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\application.runtimeconfig.dev.json
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\appsettings.json
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\application.exe
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\application.dll
+C:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\application.pdb
+c:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Faker.NETCore.dll
+c:\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\de-DE\Faker.NETCore.resources.dll

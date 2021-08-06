@@ -1,0 +1,41 @@
+using System;
+using Api.Data.Context;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Xunit;
+
+namespace Api.Data.Test
+{
+    public abstract class BaseTest
+    {
+        public BaseTest()
+        {
+
+        }
+    }
+    public class DbTeste : IDisposable
+    {
+        private string dataBaseName = $"dbApiTest_{Guid.NewGuid().ToString().Replace("-", string.Empty)}";
+        public ServiceProvider ServiceProvider { get; private set; }
+        public DbTeste()
+        {
+            var serviceCollection = new ServiceCollection();
+            serviceCollection.AddDbContext<Mycontext>(o =>
+             o.UseSqlServer($"Server=(local)\\sqlexpress;DataBase={dataBaseName};Trusted_Connection=true;MultipleActiveResultSets=true"),
+                ServiceLifetime.Transient
+            );
+            ServiceProvider = serviceCollection.BuildServiceProvider();
+            using (var context = ServiceProvider.GetService<Mycontext>())
+            {
+                context.Database.EnsureCreated();
+            }
+        }
+        public void Dispose()
+        {
+            using (var context = ServiceProvider.GetService<Mycontext>())
+            {
+                context.Database.EnsureDeleted();
+            }
+        }
+    }
+}

@@ -155,3 +155,4 @@ C:\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.csp
 C:\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.dll
 C:\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.pdb
 C:\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.genruntimeconfig.cache
+c:\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.MvcApplicationPartsAssemblyInfo.cs

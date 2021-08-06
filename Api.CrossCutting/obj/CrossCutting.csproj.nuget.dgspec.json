@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
+    "c:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+    "c:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "c:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectPath": "c:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
-        "outputPath": "C:\\curso_api_netcore\\src\\Api.CrossCutting\\obj\\",
+        "outputPath": "c:\\curso_api_netcore\\src\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,14 +29,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
+              "c:\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "c:\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+              "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
               },
-              "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
+              "c:\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "c:\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
+    "c:\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "c:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
+        "projectPath": "c:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
         "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
-        "outputPath": "C:\\curso_api_netcore\\src\\Api.Data\\obj\\",
+        "outputPath": "c:\\curso_api_netcore\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,8 +104,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+              "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -160,14 +160,14 @@
         }
       }
     },
-    "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+    "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
-        "outputPath": "C:\\curso_api_netcore\\src\\Api.Domain\\obj\\",
+        "outputPath": "c:\\curso_api_netcore\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,14 +221,14 @@
         }
       }
     },
-    "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
+    "c:\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj",
+        "projectUniqueName": "c:\\curso_api_netcore\\src\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj",
+        "projectPath": "c:\\curso_api_netcore\\src\\Api.Service\\Service.csproj",
         "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
-        "outputPath": "C:\\curso_api_netcore\\src\\Api.Service\\obj\\",
+        "outputPath": "c:\\curso_api_netcore\\src\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -246,11 +246,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
+              "c:\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "c:\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+              "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
