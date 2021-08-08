@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    ".NETCoreApp,Version=v3.1": {
       "AutoMapper/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -8372,7 +8372,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    ".NETCoreApp,Version=v3.1": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.0.1",
       "CrossCutting >= 1.0.0",
       "Domain >= 1.0.0",
@@ -8391,18 +8391,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\curso_api_netcore\\src\\Api.Service.Test\\Api.Service.Test.csproj",
+      "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.Service.Test\\Api.Service.Test.csproj",
       "projectName": "Api.Service.Test",
-      "projectPath": "c:\\curso_api_netcore\\src\\Api.Service.Test\\Api.Service.Test.csproj",
+      "projectPath": "C:\\curso_api_netcore\\src\\Api.Service.Test\\Api.Service.Test.csproj",
       "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
-      "outputPath": "c:\\curso_api_netcore\\src\\Api.Service.Test\\obj\\",
+      "outputPath": "C:\\curso_api_netcore\\src\\Api.Service.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -8410,17 +8410,17 @@
         "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "c:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "c:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
+            "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+              "projectPath": "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
             },
-            "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+            "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
             },
-            "c:\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
-              "projectPath": "c:\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
+            "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
+              "projectPath": "C:\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
             }
           }
         }
@@ -8432,8 +8432,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",

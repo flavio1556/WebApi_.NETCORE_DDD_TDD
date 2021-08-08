@@ -5445,11 +5445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
+      "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "c:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
+      "projectPath": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj",
       "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
-      "outputPath": "c:\\curso_api_netcore\\src\\Api.Data\\obj\\",
+      "outputPath": "C:\\curso_api_netcore\\src\\Api.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5467,8 +5467,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+            "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
             }
           }
         }
