@@ -25,12 +25,12 @@ namespace Api.Service.Test.Usuario
             EmailUsuario = Faker.Internet.Email();
             NomeUsuarioAlterado = Faker.Name.FullName();
             EmailUsuarioAlterado = Faker.Internet.Email();
-            for (int i = 0; i <= 10; i++)
+            for (int i = 0; i < 10; i++)
             {
                 var dto = new UserDto()
                 {
                     Id = Guid.NewGuid(),
-                    Name = Faker.Name.FullName(),
+                    Nome = Faker.Name.FullName(),
                     Email = Faker.Internet.Email()
                 };
                 listaUserDto.Add(userDto);
@@ -38,31 +38,31 @@ namespace Api.Service.Test.Usuario
             userDto = new UserDto
             {
                 Id = IdUsuario,
-                Name = NomeUsuario,
+                Nome = NomeUsuario,
                 Email = EmailUsuario
             };
             UserDtoCreate = new UserDtoCreate
             {
-                Name = NomeUsuario,
+                Nome = NomeUsuario,
                 Email = NomeUsuario
             };
             userDtoCreateResult = new UserDtoCreateResult
             {
                 Id = IdUsuario,
-                Name = NomeUsuario,
+                Nome = NomeUsuario,
                 Email = EmailUsuario,
                 CreateAt = DateTime.UtcNow
             };
             userDtoUpdate = new UserDtoUpdate
             {
                 Id = IdUsuario,
-                Name = NomeUsuario,
+                Nome = NomeUsuario,
                 Email = NomeUsuario
             };
             userDtoUpdateResult = new UserDtoUpdateResult
             {
                 Id = IdUsuario,
-                Name = NomeUsuario,
+                Nome = NomeUsuario,
                 Email = EmailUsuario,
                 UpdateAt = DateTime.UtcNow
             };

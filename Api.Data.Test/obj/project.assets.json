@@ -8365,20 +8365,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fhadiogo\\.nuget\\packages\\": {}
+    "C:\\Users\\fhadiogo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\curso_api_netcore\\src\\Api.Data.Test\\Api.Data.Test.csproj",
+      "projectUniqueName": "C:\\curso_api_netcore\\src\\Api.Data.Test\\Api.Data.Test.csproj",
       "projectName": "Api.Data.Test",
-      "projectPath": "c:\\curso_api_netcore\\src\\Api.Data.Test\\Api.Data.Test.csproj",
+      "projectPath": "C:\\curso_api_netcore\\src\\Api.Data.Test\\Api.Data.Test.csproj",
       "packagesPath": "C:\\Users\\fhadiogo\\.nuget\\packages\\",
-      "outputPath": "c:\\curso_api_netcore\\src\\Api.Data.Test\\obj\\",
+      "outputPath": "C:\\curso_api_netcore\\src\\Api.Data.Test\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\fhadiogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8392,17 +8397,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "c:\\curso_api_netcore\\src\\Api.Application\\application.csproj": {
-              "projectPath": "c:\\curso_api_netcore\\src\\Api.Application\\application.csproj"
+            "C:\\curso_api_netcore\\src\\Api.Application\\application.csproj": {
+              "projectPath": "C:\\curso_api_netcore\\src\\Api.Application\\application.csproj"
             },
-            "c:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "c:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
+            "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+              "projectPath": "C:\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
             },
-            "c:\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
-              "projectPath": "c:\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
+            "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj": {
+              "projectPath": "C:\\curso_api_netcore\\src\\Api.Data\\Data.csproj"
             },
-            "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "c:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+            "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
             }
           }
         }

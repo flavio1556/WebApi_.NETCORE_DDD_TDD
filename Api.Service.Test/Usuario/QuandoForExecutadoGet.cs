@@ -20,7 +20,7 @@ namespace Api.Service.Test.Usuario
             var result = await _service.Get(IdUsuario);
             Assert.NotNull(result);
             Assert.True(result.Id == IdUsuario);
-            Assert.Equal(NomeUsuario, result.Name);
+            Assert.Equal(NomeUsuario, result.Nome);
 
             _serviceMock = new Mock<IUserService>();
             _serviceMock.Setup(m => m.Get(It.IsAny<Guid>())).Returns(Task.FromResult((UserDto)null));

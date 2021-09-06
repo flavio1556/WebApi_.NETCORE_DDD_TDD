@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Api.Service.Test/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
           "CrossCutting": "1.0.0",
           "Domain": "1.0.0",

@@ -10,14 +10,14 @@ namespace Api.Data.Repository
 {
     public class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {
-        protected readonly Mycontext _context;
-        private DbSet<T> _dataset;
-        public BaseRepository(Mycontext Context)
+        protected readonly MyContext _context;
+        protected DbSet<T> _dataset;
+        public BaseRepository(MyContext Context)
         {
             _context = Context;
             _dataset = _context.Set<T>();
         }
-        public async Task<bool> DeleteAnsync(Guid id)
+        public async Task<bool> DeleteAsync(Guid id)
         {
             try
             {
@@ -36,7 +36,7 @@ namespace Api.Data.Repository
             }
         }
 
-        public async Task<T> InsertAnsync(T item)
+        public async Task<T> InsertAsync(T item)
         {
             try
             {
@@ -57,7 +57,7 @@ namespace Api.Data.Repository
             return item;
         }
 
-        public async Task<T> SelectAnsync(Guid id)
+        public async Task<T> SelectAsync(Guid id)
         {
             try
             {
@@ -69,7 +69,7 @@ namespace Api.Data.Repository
             }
         }
 
-        public async Task<IEnumerable<T>> SelectAnsync()
+        public async Task<IEnumerable<T>> SelectAsync()
         {
             try
             {
@@ -84,7 +84,7 @@ namespace Api.Data.Repository
         {
             return await _dataset.AnyAsync(p => p.Id.Equals(id));
         }
-        public async Task<T> UpdateAnsync(T item)
+        public async Task<T> UpdateAsync(T item)
         {
             try
             {

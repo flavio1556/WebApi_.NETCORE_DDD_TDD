@@ -9,7 +9,7 @@ namespace Api.Domain.Dtos.User
         public Guid Id { get; set; }
         [Required(ErrorMessage = "Nome é um campo obrigatório")]
         [StringLength(60, ErrorMessage = "Nome deve ter no máximo {1} caracteres.")]
-        public string Name { get; set; }
+        public string Nome { get; set; }
 
         [Required(ErrorMessage = "Email é um campo brigatório")]
         [EmailAddress(ErrorMessage = "Email em formato inválido")]

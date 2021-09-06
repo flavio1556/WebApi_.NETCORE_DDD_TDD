@@ -3,14 +3,14 @@ using Microsoft.EntityFrameworkCore.Design;
 
 namespace Api.Data.Context
 {
-    public class ContextFactory : IDesignTimeDbContextFactory<Mycontext>
+    public class ContextFactory : IDesignTimeDbContextFactory<MyContext>
     {
-        public Mycontext CreateDbContext(string[] args)
+        public MyContext CreateDbContext(string[] args)
         {
             var ConnectionString = "Server=(local)\\sqlexpress;DataBase=Curso;Trusted_Connection=true;MultipleActiveResultSets=true";
-            var optionsBuilder = new DbContextOptionsBuilder<Mycontext>();
+            var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
             optionsBuilder.UseSqlServer(ConnectionString);
-            return new Mycontext (optionsBuilder.Options);
+            return new MyContext(optionsBuilder.Options);
         }
     }
 }

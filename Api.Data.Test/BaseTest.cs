@@ -20,19 +20,19 @@ namespace Api.Data.Test
         public DbTeste()
         {
             var serviceCollection = new ServiceCollection();
-            serviceCollection.AddDbContext<Mycontext>(o =>
+            serviceCollection.AddDbContext<MyContext>(o =>
              o.UseSqlServer($"Server=(local)\\sqlexpress;DataBase={dataBaseName};Trusted_Connection=true;MultipleActiveResultSets=true"),
                 ServiceLifetime.Transient
             );
             ServiceProvider = serviceCollection.BuildServiceProvider();
-            using (var context = ServiceProvider.GetService<Mycontext>())
+            using (var context = ServiceProvider.GetService<MyContext>())
             {
                 context.Database.EnsureCreated();
             }
         }
         public void Dispose()
         {
-            using (var context = ServiceProvider.GetService<Mycontext>())
+            using (var context = ServiceProvider.GetService<MyContext>())
             {
                 context.Database.EnsureDeleted();
             }

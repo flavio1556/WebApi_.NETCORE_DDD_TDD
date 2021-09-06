@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Api.Application/application.csproj",
+                "${workspaceFolder}/src/Api.Application/application.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Api.Application/application.csproj",
+                "${workspaceFolder}/src/Api.Application/application.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,11 +32,47 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Api.Application/application.csproj",
+                "${workspaceFolder}/src/Api.Application/application.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Data.testes",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/src/Api.Data.Test/Api.Data.Test.csproj",
+            ]
+        },
+        {
+            "label": "Service.testes",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/src/Api.Service.Test/Api.Service.Test.csproj",
+            ]
+        },
+        {
+            "label": "Application.testes",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/src/Api.Application.Test/Api.Application.Test.csproj",
+            ]
+        },
+        {
+            "label": "Integration.testes",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/src/Api.Integration.Test/Api.Integration.Test.csproj",
+            ]
         }
     ]
 }
